@@ -1,4 +1,4 @@
-package com.sylvansam.portfolio.splitwise;
+package au.com.sylvansam.playground.splitwise;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

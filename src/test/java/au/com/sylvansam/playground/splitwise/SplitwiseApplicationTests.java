@@ -1,4 +1,4 @@
-package com.sylvansam.portfolio.splitwise;
+package au.com.sylvansam.playground.splitwise;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
