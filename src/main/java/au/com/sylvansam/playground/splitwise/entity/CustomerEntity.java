@@ -9,6 +9,11 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 
+/**
+ * A customer , almost always a user too.
+ * He uses the system to split his expenses
+ */
+
 @Entity
 @Builder
 @Table(name = "customer")
@@ -17,12 +22,10 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class CustomerEntity extends SWTrackableEntity {
 
-
     @NotNull
     private String mobile;
 
     private int netBalance;
-
     private Long usrId;
 
 }
